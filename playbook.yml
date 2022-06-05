@@ -40,6 +40,9 @@
         - php7.4-zip
         - unzip
         - p7zip-full
+        # PHPUnit
+        - php7.4-xml
+        - php7.4-mbstring
         - php7.4-mysql
         - php7.4-redis
         - nginx
