@@ -10,3 +10,4 @@
 
 * [https://www.php.net/](https://www.php.net/)
 * [https://pear.php.net/](https://pear.php.net/)
+* [https://pecl.php.net/](https://pecl.php.net/)
