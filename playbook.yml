@@ -43,6 +43,8 @@
         # PHPUnit
         - php7.4-xml
         - php7.4-mbstring
+        # Swoole
+        - php7.4-dev
         - php7.4-mysql
         - php7.4-redis
         - nginx
