@@ -40,6 +40,8 @@
         - php7.4-zip
         - unzip
         - p7zip-full
+        - php7.4-mysql
+        - php7.4-redis
         - nginx
 
     - name: install composer
