@@ -28,6 +28,7 @@
         - php-dev
         - php-pear
         - php-fpm
+        - php-zip
         - nginx
 
     - name: nginx config
