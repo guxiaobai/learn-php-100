@@ -30,6 +30,7 @@
         - php-fpm
         - php-zip
         - php-mbstring
+        - php-curl
         - nginx
 
     - name: nginx config
