@@ -1,6 +1,8 @@
 ---
 - hosts: all
   become: yes
+  vars:
+    - composer_path: /usr/local/bin/composer
 
   pre_tasks:
     - name: Update apt cache if needed.
@@ -31,6 +33,9 @@
         - php-zip
         - php-mbstring
         - php-curl
+        # Composer
+        - unzip
+        - p7zip-full
         - nginx
 
     - name: nginx config
@@ -50,3 +55,5 @@
         group: root
         mode: '0644'
       notify: restart php-fpm
+    
+    - include_tasks: ./composer/task.yml
