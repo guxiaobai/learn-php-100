@@ -6,6 +6,7 @@
 
 ## 教程资料
 
+* [PHP: The Right Way](https://phptherightway.com/)
 * [How to enable or disable PHP Modules on Ubuntu](https://tecadmin.net/enable-disable-php-modules-ubuntu/)
 
 ## Ref
