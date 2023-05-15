@@ -29,6 +29,7 @@
         - php-pear
         - php-fpm
         - php-zip
+        - php-mbstring
         - nginx
 
     - name: nginx config
