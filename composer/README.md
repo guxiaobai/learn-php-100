@@ -3,7 +3,18 @@
 
 |本期版本| 上期版本 
 |:---:|:---:
-`Mon May 15 23:40:39 CST 2023` | -
+`Tue Jul 25 23:12:03 CST 2023` | `Mon May 15 23:40:39 CST 2023` 
+
+## macOS
+
+> `13.4`
+
+```
+brew install composer
+fish_add_path ~/.composer/vendor/bin
+
+composer global require psy/psysh
+```
 
 
 ### 依赖
